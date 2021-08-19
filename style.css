@@ -24,8 +24,22 @@ body{
 .components{
     max-width: 1300px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .components > a{
     display: inline-block;
+    padding:10px 20px;
+    margin: 0 10px;
+    background: white;
+    text-decoration: none;
+    color: purple;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.author-info{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:50px 20px 25px;
 }

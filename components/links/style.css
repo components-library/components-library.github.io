@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-weight: lighter;
+    padding:50px 0;
+    word-spacing: 10px;
+}
+
+.breadcrumbs{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 0 40px;;
+}
+
+.links-list{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.links-list > a{
+    text-decoration: none;
+}
+
+.links-list button{
+    cursor: pointer;
+}
+
+.link-container{
+    display: inline;
+    margin: 0 15px;
+}
+
+/*Link 1*/
+
+.link1{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link1:hover{
+    text-decoration: underline;
+}
+
+/*Link 2*/
+
+.link2{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    padding:10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+/*Link 3*/
+
+.link3{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    padding:10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.link3:hover{
+    background:black;
+    color: white;
+}
+
+/*Link 4*/
+
+.link4{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    padding:10px 15px;
+    border-radius: 7px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.link4:hover{
+    background:purple;
+    color: white;
+}
+
+/*Link 5*/
+
+.link5{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    padding:10px 15px;
+    border-radius: 7px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    will-change: transform;
+    position: relative;
+    display: inline-flex;
+}
+
+.link5:hover{
+    background:red;
+    color: white;
+    transform: translateY(-5px)
+}
+
+/*Link 6*/
+
+.link6{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    border: 1px solid red;
+    padding:15px 25px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.link6:hover{
+    background:red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
