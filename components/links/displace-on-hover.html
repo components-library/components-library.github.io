@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Displace on Hover | Componenet Library</title>
+    <link rel="stylesheet" href="codefile.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Displace on Hover</h1>
+    </div>
+    
+    <div class="breadcrumbs-wrap">
+        <div class="breadcrumbs">
+            <a href="/">Components Library</a> > <a href="/components/links/">Links</a> > Displace on Hover
+        </div>
+    </div>
+    
+    <div class="component-preview-wrap">
+        <div class="component-preview">
+            
+            <a href="#" class="link">Displace on Hover</a>
+            <style>
+                .link{
+                    text-decoration: none;
+                    color: inherit;
+                    background: white;
+                    padding:10px 15px;
+                    border-radius: 7px;
+                    transition: 0.15s ease-in-out;
+                    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+                    will-change: transform;
+                    position: relative;
+                    display: inline-flex;
+                }
+
+                .link:hover{
+                    background:red;
+                    color: white;
+                    transform: translateY(-5px)
+                } 
+            </style>
+        </div>
+    </div>
+    
+    <div class="component-code-wrap">
+        <div class="component-code">
+            <div class="component-code-html-wrap">
+           <h2>HTML</h2>
+                <pre class="component-code-html">&lt;a href="#" class="link"&gt;Displace on Hover&lt;/a&gt;</pre>
+            </div>
+            <div class="component-code-html-wrap">
+           <h2>CSS</h2>
+                <pre class="component-code-html">.link{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    padding:10px 15px;
+    border-radius: 7px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    will-change: transform;
+    position: relative;
+    display: inline-flex;
+}
+
+.link:hover{
+    background:red;
+    color: white;
+    transform: translateY(-5px)
+} </pre>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+</body>
+</html>

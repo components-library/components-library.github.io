@@ -134,8 +134,27 @@ body{
     color: white;
 }
 
+/*Link 7*/
 
+.link7{
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    padding:10px 15px;
+    border-radius: 7px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    position: relative;
+}
 
+.link7:hover{
+    background:purple;
+    color: white;
+}
+
+.link7 > img{
+    height: 18px;
+}
 
 
 
